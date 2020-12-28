@@ -2,6 +2,5 @@
 
 import name from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
-
+// eslint-disable-next-line no-unused-expressions
 name;
