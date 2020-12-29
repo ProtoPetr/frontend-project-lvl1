@@ -9,3 +9,5 @@
 ![example workflow file path](https://github.com/actions/frontend-project-lvl1/workflows/.github/workflows/nodejs.yml/badge.svg)
 
 [![asciicast](https://asciinema.org/a/wik7ie42joIwvvHPdRzbsmy8b.svg)](https://asciinema.org/a/wik7ie42joIwvvHPdRzbsmy8b)
+
+[![asciicast](https://asciinema.org/a/hl2SaMkfXxbEVSTLcCW26DrAH.svg)](https://asciinema.org/a/hl2SaMkfXxbEVSTLcCW26DrAH)
