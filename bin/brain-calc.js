@@ -18,7 +18,7 @@ console.log(`Hello, ${name}!`);
 
 console.log('What is the result of the expression?');
 
-for (let i = 1; i <= 4; i += 1) {
+for (let i = 1; i <= 3; i += 1) {
   let randomNumber1 = getRandomInt(1, 100);
   let randomNumber2 = getRandomInt(1, 100);
   let randomIndex = getRandomInt(0, 3);
@@ -27,7 +27,7 @@ for (let i = 1; i <= 4; i += 1) {
   let operChar = ['+', '-', '*'];
   console.log(`Question: ${randomNumber1} ${operChar[randomIndex]} ${randomNumber2}`);
   const answer = readlineSync.question('Your answer: ');
-  if (i === 3) {
+  if (i === 3 && correctAnswer[randomIndex] == answer) {
     console.log(`Correct! \nCongratulations, ${name}!`);
     break;
   } else if (correctAnswer[randomIndex] == answer) {

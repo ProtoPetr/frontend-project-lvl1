@@ -41,7 +41,7 @@ for (let k = 1; k <= 3; k += 1) {
   emptyProgression.splice(randomIndex, 1, '..');
   console.log(`Question: ${emptyProgression.join(' ')}`);
   const answer = readlineSync.question('Your answer: ');
-  if (k === 3) {
+  if (k === 3 && randomElement == answer) {
     console.log(`Correct! \nCongratulations, ${name}!`);
     break;
   } else if (randomElement == answer) {

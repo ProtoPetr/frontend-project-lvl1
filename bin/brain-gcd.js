@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable eqeqeq */
 /* eslint-disable consistent-return */
 /* eslint-disable prefer-const */
 
@@ -26,12 +27,12 @@ console.log(`Hello, ${name}!`);
 
 console.log('Find the greatest common divisor of given numbers.');
 
-for (let i = 1; i <= 4; i += 1) {
+for (let i = 1; i <= 3; i += 1) {
   let randomNumber1 = getRandomInt(1, 100);
   let randomNumber2 = getRandomInt(1, 100);
   console.log(`Question: ${randomNumber1} ${randomNumber2}`);
   const answer = readlineSync.question('Your answer: ');
-  if (i === 3) {
+  if (i === 3 && gcd(randomNumber1, randomNumber2) == answer) {
     console.log(`Correct! \nCongratulations, ${name}!`);
     break;
   // eslint-disable-next-line eqeqeq
