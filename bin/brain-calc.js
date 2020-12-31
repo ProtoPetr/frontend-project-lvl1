@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable eqeqeq */
 /* eslint-disable prefer-const */
 
 import readlineSync from 'readline-sync';
