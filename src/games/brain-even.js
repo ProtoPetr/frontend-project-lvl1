@@ -19,7 +19,7 @@ const isEvenGame = () => {
     const randomNumber = getRandomInt(1, 100);
     console.log(`Question: ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
-    if (i === 3) {
+    if (i === 3 && ((randomNumber % 2 === 0 && answer === 'yes') || (randomNumber % 2 !== 0 && answer === 'no'))) {
       console.log(`Correct! \nCongratulations, ${name}!`);
       break;
     } else if ((randomNumber % 2 === 0 && answer === 'yes') || (randomNumber % 2 !== 0 && answer === 'no')) {
